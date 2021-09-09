@@ -93,7 +93,7 @@ def tag(codigoJS):
 def crawl(urls, profundidade, contadorURLs):
     #conjunto que armazena as URLs dos links das páginas que não permitem a entrada do crawler
     codigos_bloqueados = set()
-    caminho_url_erro = '/crawler/urls_que_deram_erro/' + 'urls_erros' + '.txt' 
+    caminho_url_erro = '/crawler_GM/urls_que_deram_erro/' + 'urls_erros' + '.txt' 
     contador_nome_site = 0
     with open(caminho_url_erro, 'w') as file_object:
         file_object.write("URLS que deram erro\n\n" + str(codigos_bloqueados) + "\n\n" )
