@@ -110,7 +110,7 @@ def crawl(urls, profundidade, contadorURLs):
         #código para desativar os avisos warnings  
         nome_url = paginas[0]
         nome_url = nome_url.split('//')[1]           
-        dir = '/crawler/ofuscados/' + str(nome_url)
+        dir = '/crawler_GM/ofuscados/' + str(nome_url)
         os.mkdir(dir)
         urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
         #para usar o selenium ->browser = webdriver.Firefox()
