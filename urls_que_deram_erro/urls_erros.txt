@@ -1,0 +1,4 @@
+URLS que deram erro
+
+set()
+
